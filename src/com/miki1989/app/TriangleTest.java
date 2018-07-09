@@ -11,6 +11,7 @@ public class TriangleTest {
         TriangleCreator creator = new TriangleCreator();
         System.out.println("Trójąkt o wymiarach:");
         triangle1.getInfo();
+        System.out.print("Ma wartość: ");
         System.out.println(creator.isRightTriangle(triangle1));
 
         triangle1.setSide1(3);
@@ -18,6 +19,7 @@ public class TriangleTest {
         triangle1.setSide3(5);
         System.out.println("Trójkąt o wymiarach:");
         triangle1.getInfo();
+        System.out.print("Ma wartość: ");
         System.out.println(creator.isRightTriangle(triangle1));
     }
 }

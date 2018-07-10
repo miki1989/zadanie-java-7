@@ -1,4 +1,4 @@
-package com.miki1989.model;
+/*package com.miki1989.model;
 
 public class TriangleCreator {
 
@@ -6,3 +6,4 @@ public class TriangleCreator {
         return triangle.isRightTriangle();
     }
 }
+*/

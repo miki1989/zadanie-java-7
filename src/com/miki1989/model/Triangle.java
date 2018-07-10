@@ -11,7 +11,7 @@ public class Triangle {
         this.side3 = side3;
     }
 
-    boolean isRightTriangle(){
+    public boolean isRightTriangle(){
         if(Math.pow(side1,2) + Math.pow(side2,2) == Math.pow(side3,2) || Math.pow(side1,2) + Math.pow(side3,2) == Math.pow(side2,2) || Math.pow(side2,2) + Math.pow(side3,2) == Math.pow(side1,2)){
             return true;
         }
